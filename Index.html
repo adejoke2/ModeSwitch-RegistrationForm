@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mode Change/RegistrationForm </title>
+    <link rel="stylesheet" href="Style.css">
+   
+</head>
+<body>
+      <button onclick="LightToDarkMode()">Dark Mode</button><br><br>
+      <h1>Welcome To <em>Beebarh's</em> Page</h1>
+      <div>
+        <form name="myform" method="POST" onsubmit="return FormValidation()" action="/" >
+          <h1 style="color: blue;">Register Here </h1>
+      
+         <input type="text" id="sname" name="SurName" value="" placeholder="Enter Your SurName..."><br><br>
+     
+         
+         <input type="text" id="fname" name="FirstName" value="" placeholder="Enter Your FirstName..."><br><br>
+
+         
+         <input type="text" id="email" name="Email" value="" placeholder="Enter Your Email.."><br><br>
+
+         
+         <input type="number" id="age" name="Age" value="" placeholder="Enter Your Age..."><br><br>
+
+         
+         <input type="number" id="Pnumber" name="PhoneNumber" value="" placeholder="Your PhoneNumber.."><br><br>
+
+         <input type="text" id="Password" name="PassWord" value="" placeholder="PassWord.."><br><br>
+
+         <input type="text" id="ConPassword" name="ConfirmPassword" value="" placeholder="Confirm Password.."><br><br>
+     
+         <select id="country" name="country">
+           <option value="australia">Nigeria</option>
+           <option value="canada">Canada</option>
+           <option value="usa">USA</option>
+         </select><br>
+       
+         <input type="submit" value="Submit">
+         <button onClick="window.print()">Print This Page</button>
+
+       </form>
+     </div> 
+     <script src="Dark.js"></script>
+     
+</body>
+</html> 
